@@ -10,7 +10,7 @@ const DifferentialsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           {/* Coluna 1: Conformidade por Design */}
-          <div className="feature-card text-center animate-flip-in group-hover:scale-105">
+          <div className="feature-card group text-center animate-flip-in">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-primary/10 rounded-2xl flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary text-3xl">
@@ -28,7 +28,7 @@ const DifferentialsSection = () => {
           </div>
 
           {/* Coluna 2: Foco em UX */}
-          <div className="feature-card text-center animate-flip-in animate-delay-100 group-hover:scale-105">
+          <div className="feature-card group text-center animate-flip-in animate-delay-100">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-accent/10 rounded-2xl flex items-center justify-center">
                 <span className="material-symbols-outlined text-accent text-3xl">
@@ -46,7 +46,7 @@ const DifferentialsSection = () => {
           </div>
 
           {/* Coluna 3: Tecnologia Sob Medida */}
-          <div className="feature-card text-center animate-flip-in animate-delay-200 group-hover:scale-105">
+          <div className="feature-card group text-center animate-flip-in animate-delay-200">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-secondary/80 rounded-2xl flex items-center justify-center border border-border">
                 <span className="material-symbols-outlined text-primary text-3xl">

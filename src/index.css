@@ -115,8 +115,8 @@
   .feature-card {
     @apply bg-card rounded-2xl p-8 shadow-[var(--shadow-card)];
     @apply border border-border/50 hover:shadow-[var(--shadow-hero)];
-    @apply transition-[var(--transition-smooth)] hover:scale-[1.02];
-    @apply group cursor-pointer;
+    @apply transition-all duration-300 hover:scale-[1.02];
+    @apply cursor-pointer;
   }
 
   /* Seções com backgrounds alternativos */
