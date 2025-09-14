@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="relative z-10">
               <img 
                 src={heroImage} 
-                alt="Representação de segurança e autoridade digital para advogados" 
+                alt="Ícone 3D de Cadeado Dourado sobre um pilar, simbolizando segurança e conformidade com a OAB para sites de advogados" 
                 className="w-full h-auto rounded-2xl shadow-[var(--shadow-hero)]"
               />
             </div>

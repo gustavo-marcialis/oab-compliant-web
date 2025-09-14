@@ -10,7 +10,7 @@ const SolutionSection = () => {
             <div className="relative z-10">
               <img 
                 src={solutionImage} 
-                alt="Blueprint de desenvolvimento web com foco em segurança e conformidade OAB" 
+                alt="Blueprint de um site de advocacia, demonstrando a engenharia e o planejamento do projeto" 
                 className="w-full h-auto rounded-2xl shadow-[var(--shadow-card)]"
               />
             </div>

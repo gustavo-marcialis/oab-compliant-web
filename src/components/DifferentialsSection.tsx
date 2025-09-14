@@ -13,7 +13,7 @@ const DifferentialsSection = () => {
           <div className="feature-card group text-center animate-flip-in">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-primary/10 rounded-2xl flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary text-3xl">
+                <span className="material-symbols-outlined text-primary text-3xl" aria-label="Ícone de Cadeado">
                   lock
                 </span>
               </div>
@@ -31,7 +31,7 @@ const DifferentialsSection = () => {
           <div className="feature-card group text-center animate-flip-in animate-delay-100">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-accent/10 rounded-2xl flex items-center justify-center">
-                <span className="material-symbols-outlined text-accent text-3xl">
+                <span className="material-symbols-outlined text-accent text-3xl" aria-label="Ícone de Experiência do Usuário (UX)">
                   interests
                 </span>
               </div>
@@ -49,7 +49,7 @@ const DifferentialsSection = () => {
           <div className="feature-card group text-center animate-flip-in animate-delay-200">
             <div className="mb-6">
               <div className="w-16 h-16 mx-auto bg-secondary/80 rounded-2xl flex items-center justify-center border border-border">
-                <span className="material-symbols-outlined text-primary text-3xl">
+                <span className="material-symbols-outlined text-primary text-3xl" aria-label="Ícone de Código-fonte">
                   code
                 </span>
               </div>

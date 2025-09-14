@@ -12,7 +12,7 @@ const PainSection = () => {
           {/* Coluna 1: Medo de Ferir a Ética */}
           <div className="feature-card group text-center animate-fade-in-up">
             <div className="relative inline-block mb-6">
-              <span className="material-symbols-outlined material-icon-large text-primary">
+              <span className="material-symbols-outlined material-icon-large text-primary" aria-label="Ícone de martelo de juiz">
                 gavel
               </span>
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-destructive rounded-full flex items-center justify-center">
@@ -33,7 +33,7 @@ const PainSection = () => {
           {/* Coluna 2: Imagem Profissional Fraca */}
           <div className="feature-card group text-center animate-fade-in-up animate-delay-100">
             <div className="mb-6">
-              <span className="material-symbols-outlined material-icon-large text-muted">
+              <span className="material-symbols-outlined material-icon-large text-muted" aria-label="Ícone de rosto insatisfeito">
                 sentiment_dissatisfied
               </span>
             </div>
@@ -49,7 +49,7 @@ const PainSection = () => {
           {/* Coluna 3: Perda de Tempo e Oportunidades */}
           <div className="feature-card group text-center animate-fade-in-up animate-delay-200">
             <div className="mb-6">
-              <span className="material-symbols-outlined material-icon-large text-muted">
+              <span className="material-symbols-outlined material-icon-large text-muted" aria-label="Ícone de ampulheta">
                 hourglass_empty
               </span>
             </div>
