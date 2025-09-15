@@ -1,4 +1,5 @@
 import testimonialBg from '@/assets/testimonial-bg.jpg';
+import { Star } from 'lucide-react';
 
 const TestimonialSection = () => {
   return (
@@ -54,9 +55,7 @@ const TestimonialSection = () => {
             {/* Estrelas decorativas */}
             <div className="flex justify-center mt-6">
               {[...Array(5)].map((_, i) => (
-                <span key={i} className="material-symbols-outlined text-accent text-xl">
-                  star
-                </span>
+                <Star key={i} className="text-accent text-xl" fill="currentColor" />
               ))}
             </div>
           </div>
