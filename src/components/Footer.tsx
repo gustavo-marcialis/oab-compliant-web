@@ -1,3 +1,5 @@
+import logo from '@/assets/logo.svg';
+
 const Footer = () => {
   return (
     <footer className="bg-cinza-escuro text-white py-12">
@@ -6,11 +8,11 @@ const Footer = () => {
           {/* Logo e descrição */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary-foreground text-xl">
-                  lock
-                </span>
-              </div>
+              <img 
+                src={logo} 
+                alt="Logo Compliance Digital OAB - Desenvolvimento de sites para advogados em conformidade com o Provimento 205/2021"
+                className="h-8 w-auto"
+              />
               <h3 className="text-xl font-bold font-montserrat">Calcipher Tech</h3>
             </div>
             
