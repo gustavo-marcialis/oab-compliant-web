@@ -21,8 +21,8 @@ const Hero = () => {
             
             <p className="text-lg md:text-xl leading-relaxed text-muted-foreground font-medium max-w-2xl">
               Desenvolvemos plataformas digitais para advogados e escritórios que transmitem 
-              autoridade, constroem confiança e respeitam rigorosamente o Provimento 205/2021. 
-              <strong className="text-foreground">Menos risco, mais credibilidade.</strong>
+              autoridade, constroem confiança e respeitam rigorosamente o Provimento 205/2021.{' '}
+              <strong className="text-foreground"> Menos risco, mais credibilidade.</strong>
             </p>
 
             <div className="pt-4">

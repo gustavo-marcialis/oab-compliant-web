@@ -19,7 +19,6 @@ const Header = () => {
     { name: 'O Problema', href: '#dor' },
     { name: 'Solução', href: '#solucao' },
     { name: 'Diferenciais', href: '#diferenciais' },
-    { name: 'Depoimentos', href: '#depoimentos' },
     { name: 'Processo', href: '#processo' },
     { name: 'Contato', href: '#contato' },
   ];

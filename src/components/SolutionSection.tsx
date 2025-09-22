@@ -34,12 +34,12 @@ const SolutionSection = () => {
                 Nós não criamos <strong className="text-foreground">"apenas sites"</strong>. 
                 Nós projetamos e desenvolvemos plataformas digitais sob medida, onde cada elemento 
                 é pensado com um duplo objetivo: <strong className="text-primary">fortalecer sua autoridade 
-                profissional</strong> e <strong className="text-primary">garantir sua total tranquilidade </strong> 
+                profissional</strong> e <strong className="text-primary">garantir sua total tranquilidade </strong>{' '} 
                 em relação às normas da OAB.
               </p>
               
               <p className="text-muted-foreground">
-                Nossa metodologia une a <strong className="text-foreground">excelência técnica de um software </strong> 
+                Nossa metodologia une a <strong className="text-foreground">excelência técnica de um software </strong> {' '}
                 com a <strong className="text-foreground">compreensão profunda das necessidades e dos limites da advocacia</strong>.
               </p>
             </div>
