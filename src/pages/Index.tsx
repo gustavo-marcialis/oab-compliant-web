@@ -24,9 +24,6 @@ const Index = () => {
       <section id="diferenciais">
         <DifferentialsSection />
       </section>
-      <section id="depoimentos">
-        <TestimonialSection />
-      </section>
       <section id="processo">
         <ProcessSection />
       </section>

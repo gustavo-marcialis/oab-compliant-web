@@ -13,19 +13,12 @@ const Footer = () => {
                 alt="Logo Compliance Digital OAB - Desenvolvimento de sites para advogados em conformidade com o Provimento 205/2021"
                 className="h-8 w-auto"
               />
-              <h3 className="text-xl font-bold font-montserrat">Calcipher Tech</h3>
             </div>
             
             <p className="text-white/80 leading-relaxed max-w-md">
               Especialistas em desenvolvimento de sites para advogados. 
               Tecnologia sob medida com total conformidade à OAB.
             </p>
-
-            <div className="space-y-2">
-              <p className="text-sm text-white/70">
-                <strong>CNPJ:</strong> 12.345.678/0001-90
-              </p>
-            </div>
           </div>
 
           {/* Contato */}
@@ -38,24 +31,24 @@ const Footer = () => {
                   email
                 </span>
                 <a 
-                  href="mailto:contato@calciphertech.com.br" 
+                  href="mailto:calciphertech@gmail.com" 
                   className="text-white/80 hover:text-white transition-colors"
                 >
-                  contato@calciphertech.com.br
+                  calciphertech@gmail.com
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <span className="material-symbols-outlined text-accent text-lg">
-                  phone
+                  WhatsApp
                 </span>
                 <a 
-                  href="https://wa.me/5511999999999" 
+                  href="https://wa.me/5513976032553" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                 >
-                  (11) 99999-9999
+                  (13) 97603-2553
                 </a>
               </div>
             </div>
@@ -87,16 +80,7 @@ const Footer = () => {
             <p className="text-sm text-white/70">
               © 2025 Calcipher Tech. Todos os direitos reservados.
             </p>
-            
-            <div className="flex items-center space-x-6 text-sm text-white/70">
-              <a href="#" className="hover:text-white transition-colors">
-                Política de Privacidade
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                Termos de Uso
-              </a>
-            </div>
-          </div>
+                      </div>
 
           {/* Badge de confiança */}
           <div className="mt-6 text-center">
